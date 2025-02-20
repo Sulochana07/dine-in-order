@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dine-in-order-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/dine_in_order?createDatabaseIfNotExist=true
+    username: root
+    password: sulo@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+        #properties:
+        #hibernate:
+      #dialect: org.hibernate.dialect.MySQL8Dialect
